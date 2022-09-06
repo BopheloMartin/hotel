@@ -1,0 +1,33 @@
+.roomform{
+    background-color: #D9D9D9;
+}
+
+.d-block{
+    height: 500px;
+}
+
+.main{
+    display: flex;
+    margin-left: 230px;
+}
+
+.rform{
+    height: 100%;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.rinput{
+    border-radius: 10px;
+    width: 300px;
+    height: 39px;
+}
+
+.roominput{
+    border-radius: 10px;
+    height: 60px;
+}
+
+.btn{
+    background-color: #DD9D62;
+}

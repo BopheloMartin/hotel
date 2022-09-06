@@ -1,38 +1,247 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&family=Roboto:wght@700&display=swap');
+
+.img{
+    padding-left: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+    background-color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h6, h1, label, h5, p{
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cardtext{
+    color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.justify-content-end{
+    margin-left: 850px;
+}
+
+.Nav.Link{
+    padding: 10px;
+}
+
+.color1{
+    width: 50%;
+}
+
+.color2{
+    width: 50%;
+}
+
+.box{
+    display: flex;
+}
+
+.input{
+    display:grid;
+    width: 350px;
+    margin-left: 120px;
+}
+
+.text{
+    margin-left: 100px;
+}
+
+.form{
+    margin-top: 200px;
+}
+
+input{
+    border: none;
+    height: 35px;
+}
+
+select{
+    border: none;
+}
+
+.about{
+    display: flex;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.about-text{
+    background-color: #D9D9D9;
+    width: 450px;
+    margin-top: 110px;
+}
+
+.image{
+    margin-left: 200px;
+}
+
+.btnbtn1{
+    background-color: #DD9D62;
+    border: none;
+    width: 400px;
+    height: 35px;
+}
+
+.btnbtn{
+    background-color: #DD9D62;
+    border: none;
+    margin-left: 20px;
+    margin-top: 170px;
+    width: 120px;
+    height: 30px;
+}
+
+.btnbtn2{
+    background-color: #DD9D62;
+    border: none;
+    width: 180px;
+    height: 30px;
+}
+
+.rooms{
+    display: flex;
+}
+
+.rheading{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.cards{
+    margin-left: 110px;
+}
+
+.fheading{
+    margin-left: 100px;
+}
+
+.facilities{
+    margin-top: 150px;
+}
+
+.icons{
+    margin-top: 40px;
+    display: flex;
+}
+
+.iimg{
+    padding-left: 100px;
+}
+
+.itext{
+    
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+}
+
+.footer{
+   
+}
+
+.fcard{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 300px;
+}
+
+.icon1{
+    display: flex;
+    
+}
+
+.btnbtn3{
+    background-color: #DD9D62;
+    border: none;
+    margin-left: 20px;
+    width: 95px;
+    height: 35px;
+}
+
+.social{
+    margin-right: 50px;
+}
+
+.isocial{
+    padding-right: 10px;
+}
+
+.stext{
+   margin-left: 20px;
+}
+
+span{
+    margin-left: 30px;
+}
+
+.calendar1{
+    background-color: #D9D9D9;
+    display: flex;
+    height: 370px;
+    padding: 70px;
+}
+
+.box1{
+    background-color: #858383;
+}
+
+
+.box2{
+    background-color: #D9D9D9;
+    margin-top: 92px;
+}
+
+.box3{
+    background-color: #D9D9D9;
+    margin-left: 150px;
+    width: 550px;
+}
+
+hr{
+    width: 400px;
+}
+
+.roomIcon{
+    display: flex;
+    height: 50px;
+}
+
+.roomIcon2{
+    display: flex;
+}
+
+.wifiIcon{
+    margin-right: 5px;
+    display: flex;
+    height: 30px;
+    width: 100px;
+}
+
+.moveIcons{
+    display: flex;
+}
+
+.icon1{
+    width: 30px;
+}
+
+.icon2{
+    width: 30px;
+}
+
+.iconp{
+    color: #000000;
+}
+
+.iconp1{
+    color: #000000;
 }
